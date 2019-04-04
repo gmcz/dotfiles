@@ -42,7 +42,23 @@ Plug 'vim-scripts/gulp-vim'
 Plug 'mattn/emmet-vim'
 " Prettier for cleaning up things
 Plug 'prettier/vim-prettier', {
-  \ 'do': 'yarn install', }
+  \ 'do': 'yarn install',
+  \ 'branch': 'release/1.x',
+  \ 'for': [
+    \ 'javascript',
+    \ 'typescript',
+    \ 'css',
+    \ 'less',
+    \ 'scss',
+    \ 'json',
+    \ 'graphql',
+    \ 'markdown',
+    \ 'vue',
+    \ 'lua',
+    \ 'php',
+    \ 'python',
+    \ 'ruby',
+    \ 'swift' ] }
 " ALE Linter
 " Plug 'w0rp/ale'
 " fzf
@@ -98,6 +114,9 @@ Plug 'sheerun/vim-json'
 Plug 'sheerun/vim-polyglot'
 " HTACG HTML Tidy
 Plug 'htacg/tidy-html5'
+" Intent lines so I can better figure out when I've double-closed or
+" never-clsoed a tag.
+Plug 'yggdroot/indentline'
 " Initialize plugin system
 :call plug#end()
 
@@ -127,6 +146,9 @@ Plug 'htacg/tidy-html5'
 
 " Set CTRLP to search working directory
 " let g:ctrlp_working_path_mode = 'rw'
+
+" Indentline settings
+let g:indentLine_char_list = ['|', '¦', '┆', '┊'] "Different characters for each level
 
 " Settings for EditorConfig
 let g:EditorConfig_exclude_patterns = ['fugitive://.*', 'scp://.*']
