@@ -20,13 +20,11 @@
 for_window [class="^.*"] border pixel 0
 gaps inner 10
 gaps outer 5
-font pango:mono 10
+font pango:FuraCode Nerd Font 10
 set $mod Mod4
 set $term --no-startup-id konsole
 # set $stoprec --no-startup-id killrecording
 # exec --no-startup-id rm -f ~/.larbs/.recording
-exec --no-startup-id redshift
-exec --no-startup-id sudo openvpn /home/greg/downloads/US\ Florida.ovpn
 # exec --no-startup-id toggldesktop
 
 # #---Starting External Scripts---# #
@@ -47,28 +45,33 @@ exec_always --no-startup-id sudo compton -bc --xrender-sync-fence
 #Launch Polybar where appropriate:
 #exec_always --no-startup-id ~/.scripts/polybar_launch
 #Runs the key remapping scripts
-exec --no-startup-id ~/.scripts/remaps
+#exec --no-startup-id ~/.scripts/remaps
 #Unclutter makes the mouse invisible after a brief period
 exec --no-startup-id unclutter
+#Redshift to remove that painful painful blue
+exec --no-startup-id redshift
+#SafeEyes to keep my eyes... safe?
+exec --no-startup-id safeeyes
+#PIA to start up VPN
+exec --no-startup-id sudo /opt/piavpn/bin/pia-client
 #Network Manager applet
 # exec --no-startup-id nm-applet
 
-bar {
-    mode hide
-    modifier none
-}
-
 # bar {
-# 	id bar-1
-#         status_command i3blocks
-# 	position bottom
-# 	mode dock
-# 	modifier none
-#         tray_output none
-# 	colors {
-# 		background #000000
-# 	}
+#     mode hide
+#     modifier none
 # }
+
+bar {
+	id bar-1
+        status_command i3blocks
+	position bottom
+	mode dock
+	modifier none
+	colors {
+		background #000000
+	}
+}
 
 
 # bar {
