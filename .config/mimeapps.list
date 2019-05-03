@@ -1,0 +1,11 @@
+[Default Applications]
+x-scheme-handler/http=brave-bin.desktop
+x-scheme-handler/https=brave-bin.desktop
+x-scheme-handler/chrome=brave-bin.desktop
+application/pdf=mupdf.desktop
+
+[Added Associations]
+image/jpeg=feh.desktop;gimp.desktop;
+application/pdf=brave-bin.desktop;libreoffice-draw.desktop;org.pwmt.zathura-pdf-mupdf.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;
+text/plain=libreoffice-writer.desktop;
