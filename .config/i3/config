@@ -13,7 +13,7 @@
 # Github: https://github.com/LukeSmithxyz
 
 # Be sure that you have your $BROWSER environmental variable set to your favorite browser.
-# E.g., put `export ROWSER="firefox"` into your bash_profile
+# E.g., put `export BROWSER="firefox"` into your bash_profile
 
 # #---Basic Definitions---##
 #Needed for i3-gaps
