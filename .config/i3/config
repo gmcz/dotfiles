@@ -426,7 +426,7 @@ bindsym XF86Shop		exec $BROWSER https://ebay.com
 bindsym XF86MonBrightnessDown	exec sudo xbacklight intel_backlight -dec 5
 bindsym XF86MonBrightnessUp	exec sudo xbacklight intel_backlight -inc 5
 bindsym XF86AudioMedia		exec --no-startup-id st -e ncmpcpp
-bindsym XF86Display		exec --no-startup-id arandr
+bindsym XF86Display		exec ddd
 #bindsym XF86KbdLightOnOff	exec
 bindsym XF86KbdBrightnessDown	exec --no-startup-id python3.6 ~/.i3/kb-lights.py -
 bindsym XF86KbdBrightnessUp	exec --no-startup-id python3.6 ~/.i3/kb-lights.py +
