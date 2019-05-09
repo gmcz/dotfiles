@@ -65,3 +65,4 @@ export EDITOR="nvim"
 export TERMINAL="konsole"
 export BROWSER="brave"
 
+source /usr/share/nvm/init-nvm.sh
