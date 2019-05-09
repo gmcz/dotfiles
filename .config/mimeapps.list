@@ -9,3 +9,4 @@ image/jpeg=feh.desktop;gimp.desktop;
 application/pdf=brave-bin.desktop;libreoffice-draw.desktop;org.pwmt.zathura-pdf-mupdf.desktop;
 application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;
 text/plain=libreoffice-writer.desktop;
+video/mp4=mpv.desktop;
