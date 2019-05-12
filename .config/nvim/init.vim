@@ -317,6 +317,7 @@ set tabstop=8 softtabstop=4 expandtab shiftwidth=4 smarttab
 set shiftwidth=4
 set smartindent
 set autoindent
+set breakindent "just spent 90 minutes on a type that this would have helped me spot
 set number relativenumber
 set hlsearch
 set incsearch " Turn on incremental search
