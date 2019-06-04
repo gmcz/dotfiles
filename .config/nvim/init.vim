@@ -114,6 +114,8 @@ Plug 'sheerun/vim-json'
 Plug 'sheerun/vim-polyglot'
 " HTACG HTML Tidy
 Plug 'htacg/tidy-html5'
+" Syntax highlighting for vue compnents
+Plug 'posva/vim-vue'
 " Intent lines so I can better figure out when I've double-closed or
 " never-clsoed a tag.
 Plug 'yggdroot/indentline'

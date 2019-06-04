@@ -30,6 +30,8 @@ set $term --no-startup-id konsole
 # #---Starting External Scripts---# #
 #Setting the background:
 exec_always --no-startup-id feh --bg-fill ~/.config/nestled_jwy80.jpg
+# Find network printers
+exec_always --no-startup-id sudo systemctl restart avahi-daemon.service
 #Starts dunst for notifications:
 exec --no-startup-id dunst
 # Start clipmenud for clipboard in dmenu
