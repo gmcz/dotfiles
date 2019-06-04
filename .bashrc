@@ -63,6 +63,6 @@ PATH="$HOME/.scripts:$PATH:$HOME/.config/composer/vendor/bin:$HOME/.gem/ruby/2.5
 export PATH
 export EDITOR="nvim"
 export TERMINAL="konsole"
-export BROWSER="brave"
+export BROWSER="firefox-developer-edition"
 
 source /usr/share/nvm/init-nvm.sh
