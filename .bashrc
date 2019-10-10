@@ -59,7 +59,7 @@ alias YT="youtube-viewer"
 alias ethspeed="speedometer -r enp0s25"
 alias wifispeed="speedometer -r wlp3s0"
 
-PATH="$HOME/.scripts:$PATH:$HOME/.config/composer/vendor/bin:$HOME/.gem/ruby/2.5.0/bin"
+PATH="$HOME/.scripts:$PATH:$HOME/.config/composer/vendor/bin:$HOME/.gem/ruby/2.5.0/bin:$HOME/.local/bin:$HOME/node_modules/.bin"
 export PATH
 export EDITOR="nvim"
 export TERMINAL="konsole"
