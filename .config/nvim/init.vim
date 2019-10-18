@@ -43,7 +43,6 @@ Plug 'mattn/emmet-vim'
 " Prettier for cleaning up things
 Plug 'prettier/vim-prettier', {
   \ 'do': 'yarn install',
-  \ 'branch': 'release/1.x',
   \ 'for': [
     \ 'javascript',
     \ 'typescript',
@@ -175,6 +174,10 @@ let g:vim_markdown_new_list_item_indent = 2
 let g:vim_markdown_no_extensions_in_markdown = 0
 let g:vim_markdown_autowrite = 1
 let g:vim_markdown_edit_url_in = 'tab'
+let g:vim_markdown_folding_disabled = 1
+let g:vim_markdown_conceal = 0
+let g:vim_markdown_strikethrough = 1
+let g:vim_markdown_autowrite = 1
 
 " Limelight settings
 let g:limelight_conceal_ctermfg = 'gray'

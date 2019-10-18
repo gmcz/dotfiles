@@ -11,12 +11,13 @@ application/x-extension-shtml=firefox-developer-edition.desktop
 application/xhtml+xml=firefox-developer-edition.desktop
 application/x-extension-xhtml=firefox-developer-edition.desktop
 application/x-extension-xht=firefox-developer-edition.desktop
+x-scheme-handler/sgnl=signal-desktop.desktop
 
 [Added Associations]
 image/jpeg=feh.desktop;gimp.desktop;
 application/pdf=zathura-pdf-mupdf.desktop;libreoffice-draw.desktop;org.pwmt.;
 application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;
-text/plain=libreoffice-writer.desktop;
+text/plain=gvim.desktop;vim.desktop;libreoffice-writer.desktop;
 video/mp4=mpv.desktop;
 x-scheme-handler/http=firefox-developer-edition.desktop;
 x-scheme-handler/https=firefox-developer-edition.desktop;
@@ -29,3 +30,6 @@ application/x-extension-shtml=firefox-developer-edition.desktop;
 application/xhtml+xml=firefox-developer-edition.desktop;
 application/x-extension-xhtml=firefox-developer-edition.desktop;
 application/x-extension-xht=firefox-developer-edition.desktop;
+application/zip=userapp-"unzip"-4FJW2Z.desktop;
+image/png=feh.desktop;
+text/markdown=libreoffice-writer.desktop;
